@@ -1,0 +1,30 @@
+{
+  "name": "leonidasguard",
+  "version": "1.0.0",
+  "description": "Projeto pessoal para gerenciamento de senhas. Esse projeto será totalmente feito para ser executado no pc usando Electron.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdksan/leonidasGuard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucasdksan/leonidasGuard/issues"
+  },
+  "homepage": "https://github.com/lucasdksan/leonidasGuard#readme",
+  "devDependencies": {
+    "electron": "^36.5.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.67"
+  }
+}
